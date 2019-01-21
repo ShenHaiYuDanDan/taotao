@@ -1,0 +1,1508 @@
+
+
+[INFO ] 2019-01-08 15:54:48,482 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:285)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2019-01-08 15:54:48,525 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing Root WebApplicationContext: startup date [Tue Jan 08 15:54:48 GMT+08:00 2019]; root of context hierarchy
+
+
+[INFO ] 2019-01-08 15:54:48,549 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2019-01-08 15:54:48,630 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2019-01-08 15:54:48,742 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\db.properties]
+
+
+[INFO ] 2019-01-08 15:54:48,742 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\resource.properties]
+
+
+[INFO ] 2019-01-08 15:54:48,746 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-08 15:54:49,270 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+Root WebApplicationContext: initialization completed in 787 ms
+
+
+[INFO ] 2019-01-08 15:54:49,284 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:484)
+FrameworkServlet 'taotao-manager': initialization started
+
+
+[INFO ] 2019-01-08 15:54:49,285 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 08 15:54:49 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-08 15:54:49,286 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+
+
+[INFO ] 2019-01-08 15:54:49,341 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-08 15:54:49,615 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 08 15:54:49 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-08 15:54:49,636 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 08 15:54:49 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-08 15:58:02,219 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:285)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2019-01-08 15:58:02,261 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing Root WebApplicationContext: startup date [Tue Jan 08 15:58:02 GMT+08:00 2019]; root of context hierarchy
+
+
+[INFO ] 2019-01-08 15:58:02,284 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2019-01-08 15:58:02,367 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2019-01-08 15:58:02,471 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\db.properties]
+
+
+[INFO ] 2019-01-08 15:58:02,471 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\resource.properties]
+
+
+[INFO ] 2019-01-08 15:58:02,475 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-08 15:58:02,975 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+Root WebApplicationContext: initialization completed in 755 ms
+
+
+[INFO ] 2019-01-08 15:58:02,989 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:484)
+FrameworkServlet 'taotao-manager': initialization started
+
+
+[INFO ] 2019-01-08 15:58:02,990 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 08 15:58:02 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-08 15:58:02,990 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+
+
+[INFO ] 2019-01-08 15:58:03,044 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-08 15:58:03,313 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 08 15:58:02 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-08 15:58:03,335 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 08 15:58:02 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-08 15:59:40,040 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:285)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2019-01-08 15:59:40,082 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing Root WebApplicationContext: startup date [Tue Jan 08 15:59:40 GMT+08:00 2019]; root of context hierarchy
+
+
+[INFO ] 2019-01-08 15:59:40,110 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2019-01-08 15:59:40,187 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2019-01-08 15:59:40,298 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\db.properties]
+
+
+[INFO ] 2019-01-08 15:59:40,298 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\resource.properties]
+
+
+[INFO ] 2019-01-08 15:59:40,302 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-08 15:59:40,832 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+Root WebApplicationContext: initialization completed in 791 ms
+
+
+[INFO ] 2019-01-08 15:59:40,846 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:484)
+FrameworkServlet 'taotao-manager': initialization started
+
+
+[INFO ] 2019-01-08 15:59:40,848 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 08 15:59:40 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-08 15:59:40,848 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+
+
+[INFO ] 2019-01-08 15:59:40,903 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-08 15:59:41,165 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 08 15:59:40 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-08 15:59:41,186 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 08 15:59:40 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-08 16:01:22,982 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:285)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2019-01-08 16:01:23,025 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing Root WebApplicationContext: startup date [Tue Jan 08 16:01:23 GMT+08:00 2019]; root of context hierarchy
+
+
+[INFO ] 2019-01-08 16:01:23,048 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2019-01-08 16:01:23,132 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2019-01-08 16:01:23,241 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\db.properties]
+
+
+[INFO ] 2019-01-08 16:01:23,242 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\resource.properties]
+
+
+[INFO ] 2019-01-08 16:01:23,246 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-08 16:01:23,776 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+Root WebApplicationContext: initialization completed in 793 ms
+
+
+[INFO ] 2019-01-08 16:01:23,796 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:484)
+FrameworkServlet 'taotao-manager': initialization started
+
+
+[INFO ] 2019-01-08 16:01:23,797 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 08 16:01:23 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-08 16:01:23,797 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+
+
+[INFO ] 2019-01-08 16:01:23,848 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-08 16:01:24,114 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 08 16:01:23 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-08 16:01:24,136 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 08 16:01:23 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-08 16:02:32,204 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:285)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2019-01-08 16:02:32,247 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing Root WebApplicationContext: startup date [Tue Jan 08 16:02:32 GMT+08:00 2019]; root of context hierarchy
+
+
+[INFO ] 2019-01-08 16:02:32,274 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2019-01-08 16:02:32,352 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2019-01-08 16:02:32,461 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\db.properties]
+
+
+[INFO ] 2019-01-08 16:02:32,462 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\resource.properties]
+
+
+[INFO ] 2019-01-08 16:02:32,466 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-08 16:02:32,996 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+Root WebApplicationContext: initialization completed in 791 ms
+
+
+[INFO ] 2019-01-08 16:02:33,014 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:484)
+FrameworkServlet 'taotao-manager': initialization started
+
+
+[INFO ] 2019-01-08 16:02:33,015 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 08 16:02:33 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-08 16:02:33,015 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+
+
+[INFO ] 2019-01-08 16:02:33,065 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-08 16:02:33,342 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 08 16:02:33 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-08 16:02:33,366 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 08 16:02:33 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-08 16:04:51,438 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:285)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2019-01-08 16:04:51,481 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing Root WebApplicationContext: startup date [Tue Jan 08 16:04:51 GMT+08:00 2019]; root of context hierarchy
+
+
+[INFO ] 2019-01-08 16:04:51,508 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2019-01-08 16:04:51,584 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2019-01-08 16:04:51,693 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\db.properties]
+
+
+[INFO ] 2019-01-08 16:04:51,693 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\resource.properties]
+
+
+[INFO ] 2019-01-08 16:04:51,698 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-08 16:04:52,231 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+Root WebApplicationContext: initialization completed in 792 ms
+
+
+[INFO ] 2019-01-08 16:04:52,246 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:484)
+FrameworkServlet 'taotao-manager': initialization started
+
+
+[INFO ] 2019-01-08 16:04:52,247 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 08 16:04:52 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-08 16:04:52,247 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+
+
+[INFO ] 2019-01-08 16:04:52,301 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-08 16:04:52,570 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 08 16:04:52 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-08 16:04:52,593 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 08 16:04:52 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-08 16:05:19,761 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:285)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2019-01-08 16:05:19,808 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing Root WebApplicationContext: startup date [Tue Jan 08 16:05:19 GMT+08:00 2019]; root of context hierarchy
+
+
+[INFO ] 2019-01-08 16:05:19,832 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2019-01-08 16:05:19,911 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2019-01-08 16:05:20,027 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\db.properties]
+
+
+[INFO ] 2019-01-08 16:05:20,027 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\resource.properties]
+
+
+[INFO ] 2019-01-08 16:05:20,032 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-08 16:05:20,561 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+Root WebApplicationContext: initialization completed in 798 ms
+
+
+[INFO ] 2019-01-08 16:05:20,576 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:484)
+FrameworkServlet 'taotao-manager': initialization started
+
+
+[INFO ] 2019-01-08 16:05:20,577 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 08 16:05:20 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-08 16:05:20,577 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+
+
+[INFO ] 2019-01-08 16:05:20,627 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-08 16:05:20,898 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 08 16:05:20 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-08 16:05:20,920 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 08 16:05:20 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-08 16:06:08,530 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:285)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2019-01-08 16:06:08,573 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing Root WebApplicationContext: startup date [Tue Jan 08 16:06:08 GMT+08:00 2019]; root of context hierarchy
+
+
+[INFO ] 2019-01-08 16:06:08,597 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2019-01-08 16:06:08,678 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2019-01-08 16:06:08,789 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\db.properties]
+
+
+[INFO ] 2019-01-08 16:06:08,789 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\resource.properties]
+
+
+[INFO ] 2019-01-08 16:06:08,794 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-08 16:06:09,327 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+Root WebApplicationContext: initialization completed in 796 ms
+
+
+[INFO ] 2019-01-08 16:06:09,348 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:484)
+FrameworkServlet 'taotao-manager': initialization started
+
+
+[INFO ] 2019-01-08 16:06:09,349 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 08 16:06:09 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-08 16:06:09,349 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+
+
+[INFO ] 2019-01-08 16:06:09,403 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-08 16:06:09,675 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 08 16:06:09 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-08 16:06:09,697 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 08 16:06:09 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-08 16:07:54,960 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:285)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2019-01-08 16:07:55,008 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing Root WebApplicationContext: startup date [Tue Jan 08 16:07:55 GMT+08:00 2019]; root of context hierarchy
+
+
+[INFO ] 2019-01-08 16:07:55,031 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2019-01-08 16:07:55,107 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2019-01-08 16:07:55,217 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\db.properties]
+
+
+[INFO ] 2019-01-08 16:07:55,217 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\resource.properties]
+
+
+[INFO ] 2019-01-08 16:07:55,221 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-08 16:07:55,772 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+Root WebApplicationContext: initialization completed in 811 ms
+
+
+[INFO ] 2019-01-08 16:07:55,786 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:484)
+FrameworkServlet 'taotao-manager': initialization started
+
+
+[INFO ] 2019-01-08 16:07:55,787 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 08 16:07:55 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-08 16:07:55,788 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+
+
+[INFO ] 2019-01-08 16:07:55,837 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-08 16:07:56,107 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 08 16:07:55 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-08 16:07:56,129 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 08 16:07:55 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-08 16:07:56,175 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:503)
+FrameworkServlet 'taotao-manager': initialization completed in 389 ms
+
+
+[INFO ] 2019-01-11 14:50:17,418 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:285)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2019-01-11 14:50:17,478 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing Root WebApplicationContext: startup date [Fri Jan 11 14:50:17 GMT+08:00 2019]; root of context hierarchy
+
+
+[INFO ] 2019-01-11 14:50:17,501 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2019-01-11 14:50:17,587 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2019-01-11 14:50:17,690 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\db.properties]
+
+
+[INFO ] 2019-01-11 14:50:17,690 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\resource.properties]
+
+
+[INFO ] 2019-01-11 14:50:17,694 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-11 14:50:18,244 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+Root WebApplicationContext: initialization completed in 812 ms
+
+
+[INFO ] 2019-01-11 14:50:18,260 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:484)
+FrameworkServlet 'taotao-manager': initialization started
+
+
+[INFO ] 2019-01-11 14:50:18,262 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Fri Jan 11 14:50:18 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-11 14:50:18,263 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+
+
+[INFO ] 2019-01-11 14:50:18,317 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-11 14:50:18,583 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Fri Jan 11 14:50:18 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-11 14:50:18,604 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Fri Jan 11 14:50:18 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-11 14:50:18,652 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:503)
+FrameworkServlet 'taotao-manager': initialization completed in 392 ms
+
+
+[INFO ] 2019-01-12 15:25:08,567 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:285)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2019-01-12 15:25:08,650 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing Root WebApplicationContext: startup date [Sat Jan 12 15:25:08 GMT+08:00 2019]; root of context hierarchy
+
+
+[INFO ] 2019-01-12 15:25:08,677 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2019-01-12 15:25:08,754 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2019-01-12 15:25:08,859 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\db.properties]
+
+
+[INFO ] 2019-01-12 15:25:08,859 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\resource.properties]
+
+
+[INFO ] 2019-01-12 15:25:08,863 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-12 15:25:09,428 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+Root WebApplicationContext: initialization completed in 820 ms
+
+
+[INFO ] 2019-01-12 15:25:09,442 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:484)
+FrameworkServlet 'taotao-manager': initialization started
+
+
+[INFO ] 2019-01-12 15:25:09,443 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Sat Jan 12 15:25:09 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-12 15:25:09,443 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+
+
+[INFO ] 2019-01-12 15:25:09,498 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-12 15:25:09,784 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Sat Jan 12 15:25:09 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-12 15:25:09,806 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Sat Jan 12 15:25:09 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-12 15:25:09,855 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:503)
+FrameworkServlet 'taotao-manager': initialization completed in 413 ms
+
+
+[INFO ] 2019-01-12 16:32:00,692 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:285)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2019-01-12 16:32:00,750 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing Root WebApplicationContext: startup date [Sat Jan 12 16:32:00 GMT+08:00 2019]; root of context hierarchy
+
+
+[INFO ] 2019-01-12 16:32:00,800 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2019-01-12 16:32:00,882 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2019-01-12 16:32:01,070 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\db.properties]
+
+
+[INFO ] 2019-01-12 16:32:01,071 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\resource.properties]
+
+
+[INFO ] 2019-01-12 16:32:01,075 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-12 16:32:01,548 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+Root WebApplicationContext: initialization completed in 855 ms
+
+
+[INFO ] 2019-01-12 16:32:01,562 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:484)
+FrameworkServlet 'taotao-manager': initialization started
+
+
+[INFO ] 2019-01-12 16:32:01,563 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Sat Jan 12 16:32:01 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-12 16:32:01,564 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+
+
+[INFO ] 2019-01-12 16:32:01,616 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-12 16:32:01,742 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/itemcat/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.taotao.rests.controller.ItemCatController.getItemCatList(java.lang.String)
+
+
+[INFO ] 2019-01-12 16:32:01,907 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Sat Jan 12 16:32:01 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-12 16:32:01,929 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Sat Jan 12 16:32:01 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-12 16:32:01,978 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:503)
+FrameworkServlet 'taotao-manager': initialization completed in 416 ms
+
+
+[INFO ] 2019-01-12 16:33:09,583 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:655)
+{dataSource-1} inited
+
+
+[INFO ] 2019-01-12 16:33:32,665 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:285)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2019-01-12 16:33:32,707 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing Root WebApplicationContext: startup date [Sat Jan 12 16:33:32 GMT+08:00 2019]; root of context hierarchy
+
+
+[INFO ] 2019-01-12 16:33:32,734 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2019-01-12 16:33:32,812 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2019-01-12 16:33:32,994 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\db.properties]
+
+
+[INFO ] 2019-01-12 16:33:32,994 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\resource.properties]
+
+
+[INFO ] 2019-01-12 16:33:32,998 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-12 16:33:33,472 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+Root WebApplicationContext: initialization completed in 806 ms
+
+
+[INFO ] 2019-01-12 16:33:33,486 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:484)
+FrameworkServlet 'taotao-manager': initialization started
+
+
+[INFO ] 2019-01-12 16:33:33,487 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Sat Jan 12 16:33:33 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-12 16:33:33,487 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+
+
+[INFO ] 2019-01-12 16:33:33,539 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-12 16:33:33,655 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/itemcat/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.taotao.rests.controller.ItemCatController.getItemCatList(java.lang.String)
+
+
+[INFO ] 2019-01-12 16:33:33,820 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Sat Jan 12 16:33:33 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-12 16:33:33,842 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Sat Jan 12 16:33:33 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-12 16:33:33,888 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:503)
+FrameworkServlet 'taotao-manager': initialization completed in 402 ms
+
+
+[INFO ] 2019-01-12 16:33:42,553 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:655)
+{dataSource-1} inited
+
+
+[INFO ] 2019-01-12 16:35:45,775 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:285)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2019-01-12 16:35:45,818 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing Root WebApplicationContext: startup date [Sat Jan 12 16:35:45 GMT+08:00 2019]; root of context hierarchy
+
+
+[INFO ] 2019-01-12 16:35:45,842 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2019-01-12 16:35:45,927 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2019-01-12 16:35:46,121 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\db.properties]
+
+
+[INFO ] 2019-01-12 16:35:46,121 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\resource.properties]
+
+
+[INFO ] 2019-01-12 16:35:46,125 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-12 16:35:46,584 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+Root WebApplicationContext: initialization completed in 807 ms
+
+
+[INFO ] 2019-01-12 16:35:46,598 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:484)
+FrameworkServlet 'taotao-manager': initialization started
+
+
+[INFO ] 2019-01-12 16:35:46,600 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Sat Jan 12 16:35:46 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-12 16:35:46,600 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+
+
+[INFO ] 2019-01-12 16:35:46,654 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-12 16:35:46,774 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/itemcat/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.taotao.rests.controller.ItemCatController.getItemCatList(java.lang.String)
+
+
+[INFO ] 2019-01-12 16:35:46,933 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Sat Jan 12 16:35:46 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-12 16:35:46,955 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Sat Jan 12 16:35:46 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-12 16:35:47,000 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:503)
+FrameworkServlet 'taotao-manager': initialization completed in 401 ms
+
+
+[INFO ] 2019-01-12 16:36:05,044 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:655)
+{dataSource-1} inited
+
+
+[INFO ] 2019-01-12 16:40:20,136 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:285)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2019-01-12 16:40:20,188 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing Root WebApplicationContext: startup date [Sat Jan 12 16:40:20 GMT+08:00 2019]; root of context hierarchy
+
+
+[INFO ] 2019-01-12 16:40:20,212 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2019-01-12 16:40:20,289 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2019-01-12 16:40:20,479 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\db.properties]
+
+
+[INFO ] 2019-01-12 16:40:20,479 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\resource.properties]
+
+
+[INFO ] 2019-01-12 16:40:20,483 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-12 16:40:20,953 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+Root WebApplicationContext: initialization completed in 816 ms
+
+
+[INFO ] 2019-01-12 16:40:20,967 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:484)
+FrameworkServlet 'taotao-manager': initialization started
+
+
+[INFO ] 2019-01-12 16:40:20,968 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Sat Jan 12 16:40:20 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-12 16:40:20,969 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+
+
+[INFO ] 2019-01-12 16:40:21,021 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-12 16:40:21,144 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/itemcat/list],methods=[],params=[],headers=[],consumes=[],produces=[application/json;charset=utf-8],custom=[]}" onto public java.lang.String com.taotao.rests.controller.ItemCatController.getItemCatList(java.lang.String)
+
+
+[INFO ] 2019-01-12 16:40:21,305 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Sat Jan 12 16:40:20 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-12 16:40:21,327 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Sat Jan 12 16:40:20 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-12 16:40:21,374 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:503)
+FrameworkServlet 'taotao-manager': initialization completed in 407 ms
+
+
+[INFO ] 2019-01-12 16:40:35,087 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:655)
+{dataSource-1} inited
+
+
+[INFO ] 2019-01-13 14:35:57,067 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:285)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2019-01-13 14:35:57,151 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing Root WebApplicationContext: startup date [Sun Jan 13 14:35:57 GMT+08:00 2019]; root of context hierarchy
+
+
+[INFO ] 2019-01-13 14:35:57,175 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2019-01-13 14:35:57,297 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2019-01-13 14:35:57,471 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\db.properties]
+
+
+[INFO ] 2019-01-13 14:35:57,471 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\resource.properties]
+
+
+[INFO ] 2019-01-13 14:35:57,475 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-13 14:35:57,971 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+Root WebApplicationContext: initialization completed in 866 ms
+
+
+[INFO ] 2019-01-13 14:35:57,984 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:484)
+FrameworkServlet 'taotao-manager': initialization started
+
+
+[INFO ] 2019-01-13 14:35:57,986 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Sun Jan 13 14:35:57 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-13 14:35:57,986 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+
+
+[INFO ] 2019-01-13 14:35:58,098 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-13 14:35:58,148 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/itemcat/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.Object com.taotao.rests.controller.ItemCatController.geiItemCatList(java.lang.String)
+
+
+[INFO ] 2019-01-13 14:35:58,345 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Sun Jan 13 14:35:57 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-13 14:35:58,371 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Sun Jan 13 14:35:57 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-13 14:35:58,415 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:503)
+FrameworkServlet 'taotao-manager': initialization completed in 431 ms
+
+
+[INFO ] 2019-01-13 14:36:34,669 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:655)
+{dataSource-1} inited
+
+
+[WARN ] 2019-01-13 14:37:18,165 method:org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1120)
+No mapping found for HTTP request with URI [/rest/itemcat/] in DispatcherServlet with name 'taotao-manager'
+
+
+[INFO ] 2019-01-13 14:40:17,967 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:285)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2019-01-13 14:40:18,009 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing Root WebApplicationContext: startup date [Sun Jan 13 14:40:18 GMT+08:00 2019]; root of context hierarchy
+
+
+[INFO ] 2019-01-13 14:40:18,036 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2019-01-13 14:40:18,110 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2019-01-13 14:40:18,296 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\db.properties]
+
+
+[INFO ] 2019-01-13 14:40:18,296 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\resource.properties]
+
+
+[INFO ] 2019-01-13 14:40:18,301 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-13 14:40:18,752 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+Root WebApplicationContext: initialization completed in 783 ms
+
+
+[INFO ] 2019-01-13 14:40:18,765 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:484)
+FrameworkServlet 'taotao-manager': initialization started
+
+
+[INFO ] 2019-01-13 14:40:18,767 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Sun Jan 13 14:40:18 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-13 14:40:18,767 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+
+
+[INFO ] 2019-01-13 14:40:18,819 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-13 14:40:18,939 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/itemcat/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.Object com.taotao.rests.controller.ItemCatController.getItemCatList(java.lang.String)
+
+
+[INFO ] 2019-01-13 14:40:19,097 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Sun Jan 13 14:40:18 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-13 14:40:19,118 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Sun Jan 13 14:40:18 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-13 14:40:19,164 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:503)
+FrameworkServlet 'taotao-manager': initialization completed in 399 ms
+
+
+[INFO ] 2019-01-13 14:40:36,398 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:655)
+{dataSource-1} inited
+
+
+[INFO ] 2019-01-13 14:41:13,220 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:285)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2019-01-13 14:41:13,260 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing Root WebApplicationContext: startup date [Sun Jan 13 14:41:13 GMT+08:00 2019]; root of context hierarchy
+
+
+[INFO ] 2019-01-13 14:41:13,284 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2019-01-13 14:41:13,361 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2019-01-13 14:41:13,547 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\db.properties]
+
+
+[INFO ] 2019-01-13 14:41:13,547 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\resource.properties]
+
+
+[INFO ] 2019-01-13 14:41:13,551 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-13 14:41:14,013 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+Root WebApplicationContext: initialization completed in 792 ms
+
+
+[INFO ] 2019-01-13 14:41:14,027 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:484)
+FrameworkServlet 'taotao-manager': initialization started
+
+
+[INFO ] 2019-01-13 14:41:14,029 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Sun Jan 13 14:41:14 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-13 14:41:14,029 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+
+
+[INFO ] 2019-01-13 14:41:14,158 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-13 14:41:14,208 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/itemcat/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.Object com.taotao.rests.controller.ItemCatController.getItemCatList(java.lang.String)
+
+
+[INFO ] 2019-01-13 14:41:14,370 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Sun Jan 13 14:41:14 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-13 14:41:14,398 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Sun Jan 13 14:41:14 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-13 14:41:14,439 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:503)
+FrameworkServlet 'taotao-manager': initialization completed in 412 ms
+
+
+[INFO ] 2019-01-13 14:41:23,104 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:655)
+{dataSource-1} inited
+
+
+[INFO ] 2019-01-13 14:43:18,301 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:285)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2019-01-13 14:43:18,344 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing Root WebApplicationContext: startup date [Sun Jan 13 14:43:18 GMT+08:00 2019]; root of context hierarchy
+
+
+[INFO ] 2019-01-13 14:43:18,369 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2019-01-13 14:43:18,451 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2019-01-13 14:43:18,647 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\db.properties]
+
+
+[INFO ] 2019-01-13 14:43:18,648 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\resource.properties]
+
+
+[INFO ] 2019-01-13 14:43:18,653 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-13 14:43:19,132 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+Root WebApplicationContext: initialization completed in 830 ms
+
+
+[INFO ] 2019-01-13 14:43:19,147 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:484)
+FrameworkServlet 'taotao-manager': initialization started
+
+
+[INFO ] 2019-01-13 14:43:19,148 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Sun Jan 13 14:43:19 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-13 14:43:19,148 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+
+
+[INFO ] 2019-01-13 14:43:19,268 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-13 14:43:19,319 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/itemcat/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.Object com.taotao.rests.controller.ItemCatController.getItemCatList(java.lang.String)
+
+
+[INFO ] 2019-01-13 14:43:19,483 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Sun Jan 13 14:43:19 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-13 14:43:19,510 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Sun Jan 13 14:43:19 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-13 14:43:19,554 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:503)
+FrameworkServlet 'taotao-manager': initialization completed in 407 ms
+
+
+[INFO ] 2019-01-13 14:43:23,204 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:655)
+{dataSource-1} inited
+
+
+[INFO ] 2019-01-13 14:47:43,180 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:285)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2019-01-13 14:47:43,222 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing Root WebApplicationContext: startup date [Sun Jan 13 14:47:43 GMT+08:00 2019]; root of context hierarchy
+
+
+[INFO ] 2019-01-13 14:47:43,246 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2019-01-13 14:47:43,327 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2019-01-13 14:47:43,513 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\db.properties]
+
+
+[INFO ] 2019-01-13 14:47:43,514 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\resource.properties]
+
+
+[INFO ] 2019-01-13 14:47:43,518 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-13 14:47:43,988 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+Root WebApplicationContext: initialization completed in 807 ms
+
+
+[INFO ] 2019-01-13 14:47:44,002 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:484)
+FrameworkServlet 'taotao-manager': initialization started
+
+
+[INFO ] 2019-01-13 14:47:44,003 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Sun Jan 13 14:47:44 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-13 14:47:44,004 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+
+
+[INFO ] 2019-01-13 14:47:44,055 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-13 14:47:44,177 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/itemcat/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.Object com.taotao.rests.controller.ItemCatController.getItemCatList(java.lang.String)
+
+
+[INFO ] 2019-01-13 14:47:44,340 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Sun Jan 13 14:47:44 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-13 14:47:44,361 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Sun Jan 13 14:47:44 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-13 14:47:44,409 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:503)
+FrameworkServlet 'taotao-manager': initialization completed in 407 ms
+
+
+[INFO ] 2019-01-13 14:47:47,863 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:655)
+{dataSource-1} inited
+
+
+[INFO ] 2019-01-14 14:13:28,480 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:285)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2019-01-14 14:13:28,543 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing Root WebApplicationContext: startup date [Mon Jan 14 14:13:28 GMT+08:00 2019]; root of context hierarchy
+
+
+[INFO ] 2019-01-14 14:13:28,572 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2019-01-14 14:13:28,685 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2019-01-14 14:13:28,860 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\db.properties]
+
+
+[INFO ] 2019-01-14 14:13:28,860 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\resource.properties]
+
+
+[INFO ] 2019-01-14 14:13:28,865 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-14 14:13:29,388 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+Root WebApplicationContext: initialization completed in 887 ms
+
+
+[INFO ] 2019-01-14 14:13:29,402 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:484)
+FrameworkServlet 'taotao-manager': initialization started
+
+
+[INFO ] 2019-01-14 14:13:29,403 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Mon Jan 14 14:13:29 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-14 14:13:29,403 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+
+
+[INFO ] 2019-01-14 14:13:29,516 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-14 14:13:29,569 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/itemcat/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.Object com.taotao.rests.controller.ItemCatController.getItemCatList(java.lang.String)
+
+
+[INFO ] 2019-01-14 14:13:29,780 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Mon Jan 14 14:13:29 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-14 14:13:29,810 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Mon Jan 14 14:13:29 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-14 14:13:29,852 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:503)
+FrameworkServlet 'taotao-manager': initialization completed in 450 ms
+
+
+[INFO ] 2019-01-14 14:14:06,856 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:655)
+{dataSource-1} inited
+
+
+[INFO ] 2019-01-15 15:11:31,861 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:285)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2019-01-15 15:11:31,950 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing Root WebApplicationContext: startup date [Tue Jan 15 15:11:31 GMT+08:00 2019]; root of context hierarchy
+
+
+[INFO ] 2019-01-15 15:11:31,978 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2019-01-15 15:11:32,057 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2019-01-15 15:11:32,242 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\db.properties]
+
+
+[INFO ] 2019-01-15 15:11:32,242 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\resource.properties]
+
+
+[INFO ] 2019-01-15 15:11:32,247 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-15 15:11:32,722 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+Root WebApplicationContext: initialization completed in 814 ms
+
+
+[INFO ] 2019-01-15 15:11:32,737 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:484)
+FrameworkServlet 'taotao-manager': initialization started
+
+
+[INFO ] 2019-01-15 15:11:32,738 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 15 15:11:32 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-15 15:11:32,738 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+
+
+[INFO ] 2019-01-15 15:11:32,791 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-15 15:11:32,912 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/itemcat/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.Object com.taotao.rests.controller.ItemCatController.getItemCatList(java.lang.String)
+
+
+[INFO ] 2019-01-15 15:11:33,180 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 15 15:11:32 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-15 15:11:33,208 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 15 15:11:32 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-15 15:11:33,267 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:503)
+FrameworkServlet 'taotao-manager': initialization completed in 530 ms
+
+
+[INFO ] 2019-01-15 15:24:43,495 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:285)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2019-01-15 15:24:43,547 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing Root WebApplicationContext: startup date [Tue Jan 15 15:24:43 GMT+08:00 2019]; root of context hierarchy
+
+
+[INFO ] 2019-01-15 15:24:43,577 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2019-01-15 15:24:43,666 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2019-01-15 15:24:43,851 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\db.properties]
+
+
+[INFO ] 2019-01-15 15:24:43,852 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\resource.properties]
+
+
+[INFO ] 2019-01-15 15:24:43,857 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-15 15:24:44,383 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+Root WebApplicationContext: initialization completed in 887 ms
+
+
+[INFO ] 2019-01-15 15:24:44,403 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:484)
+FrameworkServlet 'taotao-manager': initialization started
+
+
+[INFO ] 2019-01-15 15:24:44,405 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 15 15:24:44 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-15 15:24:44,406 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+
+
+[INFO ] 2019-01-15 15:24:44,531 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-15 15:24:44,585 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/itemcat/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.Object com.taotao.rests.controller.ItemCatController.getItemCatList(java.lang.String)
+
+
+[INFO ] 2019-01-15 15:24:44,759 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 15 15:24:44 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-15 15:24:44,793 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 15 15:24:44 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-15 15:24:44,846 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:503)
+FrameworkServlet 'taotao-manager': initialization completed in 443 ms
+
+
+[INFO ] 2019-01-15 15:52:53,593 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:285)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2019-01-15 15:52:53,640 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing Root WebApplicationContext: startup date [Tue Jan 15 15:52:53 GMT+08:00 2019]; root of context hierarchy
+
+
+[INFO ] 2019-01-15 15:52:53,665 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2019-01-15 15:52:53,750 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [D:\xiangmu\taotao\taotao-rests\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2019-01-15 15:52:53,974 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\db.properties]
+
+
+[INFO ] 2019-01-15 15:52:53,975 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [D:\xiangmu\taotao\taotao-rests\target\classes\resource\resource.properties]
+
+
+[INFO ] 2019-01-15 15:52:53,986 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-15 15:52:54,547 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+Root WebApplicationContext: initialization completed in 952 ms
+
+
+[INFO ] 2019-01-15 15:52:54,566 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:484)
+FrameworkServlet 'taotao-manager': initialization started
+
+
+[INFO ] 2019-01-15 15:52:54,568 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 15 15:52:54 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-15 15:52:54,568 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+
+
+[INFO ] 2019-01-15 15:52:54,687 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-15 15:52:54,738 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/itemcat/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.Object com.taotao.rests.controller.ItemCatController.getItemCatList(java.lang.String)
+
+
+[INFO ] 2019-01-15 15:52:54,897 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 15 15:52:54 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-15 15:52:54,920 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 15 15:52:54 GMT+08:00 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-15 15:52:54,967 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:503)
+FrameworkServlet 'taotao-manager': initialization completed in 401 ms
+
+
+[INFO ] 2019-01-15 15:52:55,731 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:655)
+{dataSource-1} inited

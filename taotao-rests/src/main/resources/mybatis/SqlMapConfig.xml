@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--配置分页插件-->
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageHelper">
+
+            <!--设置数据库类型 Oracle，mysql，MariaDB，SQLite，Hsqldb，PostgerSQ六种数据库-->
+                <!--告诉分页插件使用的什么数据库类型-->
+            <property name="dialect" value="mysql"></property>
+        </plugin>
+    </plugins>
+</configuration>
