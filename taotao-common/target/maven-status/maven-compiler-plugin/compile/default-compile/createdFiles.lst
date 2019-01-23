@@ -1,6 +1,7 @@
-com\taotao\common\pojo\EUTreeNode.class
-com\taotao\utils\IDUtils.class
-com\taotao\common\pojo\EUDataGridResult.class
-com\taotao\common\pojo\EasyUITreeNode.class
 com\taotao\utils\JsonUtils.class
 com\taotao\utils\TaotaoResult.class
+com\taotao\common\pojo\EUTreeNode.class
+com\taotao\common\pojo\EUDataGridResult.class
+com\taotao\utils\FtpUtil.class
+com\taotao\common\pojo\EasyUITreeNode.class
+com\taotao\utils\IDUtils.class

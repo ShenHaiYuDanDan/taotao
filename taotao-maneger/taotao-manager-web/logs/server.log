@@ -11630,3 +11630,985 @@ No mapping found for HTTP request with URI [/content/query/list] in DispatcherSe
 
 [WARN ] 2019-01-18 18:12:39,375 method:org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1120)
 No mapping found for HTTP request with URI [/content/query/list] in DispatcherServlet with name 'taotao-manager'
+
+
+[INFO ] 2019-01-22 13:57:56,860 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:285)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2019-01-22 13:57:56,982 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing Root WebApplicationContext: startup date [Tue Jan 22 13:57:56 CST 2019]; root of context hierarchy
+
+
+[INFO ] 2019-01-22 13:57:57,030 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [H:\taotao\taotao\taotao-maneger\taotao-manager-web\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2019-01-22 13:57:57,451 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [H:\taotao\taotao\taotao-maneger\taotao-manager-web\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2019-01-22 13:57:57,745 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [H:\taotao\taotao\taotao-maneger\taotao-manager-web\target\classes\resource\db.properties]
+
+
+[INFO ] 2019-01-22 13:57:57,745 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [H:\taotao\taotao\taotao-maneger\taotao-manager-web\target\classes\resource\resource.properties]
+
+
+[INFO ] 2019-01-22 13:57:57,757 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-22 13:57:58,810 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+Root WebApplicationContext: initialization completed in 1924 ms
+
+
+[INFO ] 2019-01-22 13:57:58,840 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:484)
+FrameworkServlet 'taotao-manager': initialization started
+
+
+[INFO ] 2019-01-22 13:57:58,843 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 22 13:57:58 CST 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-22 13:57:58,843 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+
+
+[INFO ] 2019-01-22 13:57:58,988 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-22 13:57:59,186 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/content/category/delete],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.utils.TaotaoResult com.taotao.controller.ContentCategoryController.deleteContentCategory(java.lang.Long)
+
+
+[INFO ] 2019-01-22 13:57:59,187 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/content/category/update],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.utils.TaotaoResult com.taotao.controller.ContentCategoryController.updateContentCategory(long,java.lang.String)
+
+
+[INFO ] 2019-01-22 13:57:59,187 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/content/category/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.List<com.taotao.common.pojo.EasyUITreeNode> com.taotao.controller.ContentCategoryController.getContentCategoryList(java.lang.Long)
+
+
+[INFO ] 2019-01-22 13:57:59,187 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/content/category/create],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.utils.TaotaoResult com.taotao.controller.ContentCategoryController.createContentCategory(java.lang.Long,java.lang.String)
+
+
+[INFO ] 2019-01-22 13:57:59,189 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/item/cat/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.List com.taotao.controller.ItemCatController.categoryList(java.lang.Long)
+
+
+[INFO ] 2019-01-22 13:57:59,190 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/item/save],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private com.taotao.utils.TaotaoResult com.taotao.controller.ItemController.createItem(com.taotao.pojo.TbItem,java.lang.String,java.lang.String) throws java.lang.Exception
+
+
+[INFO ] 2019-01-22 13:57:59,191 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/item/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.common.pojo.EUDataGridResult com.taotao.controller.ItemController.getItemList(java.lang.Integer,java.lang.Integer)
+
+
+[INFO ] 2019-01-22 13:57:59,191 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/item/{itemId}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.pojo.TbItem com.taotao.controller.ItemController.getItemById(java.lang.Long)
+
+
+[INFO ] 2019-01-22 13:57:59,193 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/item/param/save/{cid}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.utils.TaotaoResult com.taotao.controller.ItemParamController.insertItemParam(java.lang.Long,java.lang.String)
+
+
+[INFO ] 2019-01-22 13:57:59,199 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/item/param/query/itemcatid/{itemCatId}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.utils.TaotaoResult com.taotao.controller.ItemParamController.getItemParamByCid(java.lang.Long)
+
+
+[INFO ] 2019-01-22 13:57:59,199 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/showitem/{itemId}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.taotao.controller.ItemParamItemController.showItemParam(java.lang.Long,org.springframework.ui.Model)
+
+
+[INFO ] 2019-01-22 13:57:59,200 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/{page}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.taotao.controller.PageController.showPage(java.lang.String)
+
+
+[INFO ] 2019-01-22 13:57:59,200 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.taotao.controller.PageController.showIndex()
+
+
+[INFO ] 2019-01-22 13:57:59,201 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/pic/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.taotao.controller.PictureController.pictureUpload(org.springframework.web.multipart.MultipartFile)
+
+
+[INFO ] 2019-01-22 13:57:59,629 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 22 13:57:58 CST 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-22 13:57:59,680 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Tue Jan 22 13:57:58 CST 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-22 13:57:59,766 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:314)
+Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+
+
+[INFO ] 2019-01-22 13:57:59,771 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:314)
+Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+
+
+[INFO ] 2019-01-22 13:57:59,809 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:503)
+FrameworkServlet 'taotao-manager': initialization completed in 969 ms
+
+
+[WARN ] 2019-01-22 13:58:19,631 method:org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1120)
+No mapping found for HTTP request with URI [/item/param/list] in DispatcherServlet with name 'taotao-manager'
+
+
+[INFO ] 2019-01-22 13:58:20,687 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:655)
+{dataSource-1} inited
+
+
+[WARN ] 2019-01-22 13:58:24,523 method:org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1120)
+No mapping found for HTTP request with URI [/content/query/list] in DispatcherServlet with name 'taotao-manager'
+
+
+[WARN ] 2019-01-22 14:04:18,066 method:org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1120)
+No mapping found for HTTP request with URI [/content/query/list] in DispatcherServlet with name 'taotao-manager'
+
+
+[WARN ] 2019-01-22 14:04:22,159 method:org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1120)
+No mapping found for HTTP request with URI [/item/param/list] in DispatcherServlet with name 'taotao-manager'
+
+
+[WARN ] 2019-01-22 14:04:36,776 method:org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1120)
+No mapping found for HTTP request with URI [/item/param/list] in DispatcherServlet with name 'taotao-manager'
+
+
+[INFO ] 2019-01-23 12:24:22,881 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:285)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2019-01-23 12:24:23,038 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing Root WebApplicationContext: startup date [Wed Jan 23 12:24:23 CST 2019]; root of context hierarchy
+
+
+[INFO ] 2019-01-23 12:24:23,115 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [H:\taotao\taotao\taotao-maneger\taotao-manager-web\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2019-01-23 12:24:23,625 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [H:\taotao\taotao\taotao-maneger\taotao-manager-web\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2019-01-23 12:24:24,053 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [H:\taotao\taotao\taotao-maneger\taotao-manager-web\target\classes\resource\db.properties]
+
+
+[INFO ] 2019-01-23 12:24:24,053 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [H:\taotao\taotao\taotao-maneger\taotao-manager-web\target\classes\resource\resource.properties]
+
+
+[INFO ] 2019-01-23 12:24:24,067 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-23 12:24:25,738 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+Root WebApplicationContext: initialization completed in 2839 ms
+
+
+[INFO ] 2019-01-23 12:24:25,781 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:484)
+FrameworkServlet 'taotao-manager': initialization started
+
+
+[INFO ] 2019-01-23 12:24:25,790 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Wed Jan 23 12:24:25 CST 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-23 12:24:25,792 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+
+
+[INFO ] 2019-01-23 12:24:26,037 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-23 12:24:26,329 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/content/category/delete],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.utils.TaotaoResult com.taotao.controller.ContentCategoryController.deleteContentCategory(java.lang.Long)
+
+
+[INFO ] 2019-01-23 12:24:26,331 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/content/category/update],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.utils.TaotaoResult com.taotao.controller.ContentCategoryController.updateContentCategory(long,java.lang.String)
+
+
+[INFO ] 2019-01-23 12:24:26,332 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/content/category/create],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.utils.TaotaoResult com.taotao.controller.ContentCategoryController.createContentCategory(java.lang.Long,java.lang.String)
+
+
+[INFO ] 2019-01-23 12:24:26,332 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/content/category/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.List<com.taotao.common.pojo.EasyUITreeNode> com.taotao.controller.ContentCategoryController.getContentCategoryList(java.lang.Long)
+
+
+[INFO ] 2019-01-23 12:24:26,342 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/item/cat/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.List com.taotao.controller.ItemCatController.categoryList(java.lang.Long)
+
+
+[INFO ] 2019-01-23 12:24:26,343 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/item/save],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private com.taotao.utils.TaotaoResult com.taotao.controller.ItemController.createItem(com.taotao.pojo.TbItem,java.lang.String,java.lang.String) throws java.lang.Exception
+
+
+[INFO ] 2019-01-23 12:24:26,344 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/item/{itemId}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.pojo.TbItem com.taotao.controller.ItemController.getItemById(java.lang.Long)
+
+
+[INFO ] 2019-01-23 12:24:26,345 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/item/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.common.pojo.EUDataGridResult com.taotao.controller.ItemController.getItemList(java.lang.Integer,java.lang.Integer)
+
+
+[INFO ] 2019-01-23 12:24:26,348 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/item/param/query/itemcatid/{itemCatId}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.utils.TaotaoResult com.taotao.controller.ItemParamController.getItemParamByCid(java.lang.Long)
+
+
+[INFO ] 2019-01-23 12:24:26,348 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/item/param/save/{cid}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.utils.TaotaoResult com.taotao.controller.ItemParamController.insertItemParam(java.lang.Long,java.lang.String)
+
+
+[INFO ] 2019-01-23 12:24:26,349 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/showitem/{itemId}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.taotao.controller.ItemParamItemController.showItemParam(java.lang.Long,org.springframework.ui.Model)
+
+
+[INFO ] 2019-01-23 12:24:26,351 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.taotao.controller.PageController.showIndex()
+
+
+[INFO ] 2019-01-23 12:24:26,351 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/{page}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.taotao.controller.PageController.showPage(java.lang.String)
+
+
+[INFO ] 2019-01-23 12:24:26,352 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/pic/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.taotao.controller.PictureController.pictureUpload(org.springframework.web.multipart.MultipartFile)
+
+
+[INFO ] 2019-01-23 12:24:26,940 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Wed Jan 23 12:24:25 CST 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-23 12:24:26,985 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Wed Jan 23 12:24:25 CST 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-23 12:24:27,083 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:314)
+Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+
+
+[INFO ] 2019-01-23 12:24:27,086 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:314)
+Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+
+
+[INFO ] 2019-01-23 12:24:27,131 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:503)
+FrameworkServlet 'taotao-manager': initialization completed in 1350 ms
+
+
+[INFO ] 2019-01-23 12:54:22,487 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:285)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2019-01-23 12:54:22,603 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing Root WebApplicationContext: startup date [Wed Jan 23 12:54:22 CST 2019]; root of context hierarchy
+
+
+[INFO ] 2019-01-23 12:54:22,665 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [H:\taotao\taotao\taotao-maneger\taotao-manager-web\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2019-01-23 12:54:23,067 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [H:\taotao\taotao\taotao-maneger\taotao-manager-web\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2019-01-23 12:54:23,339 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [H:\taotao\taotao\taotao-maneger\taotao-manager-web\target\classes\resource\db.properties]
+
+
+[INFO ] 2019-01-23 12:54:23,340 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [H:\taotao\taotao\taotao-maneger\taotao-manager-web\target\classes\resource\resource.properties]
+
+
+[INFO ] 2019-01-23 12:54:23,349 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-23 12:54:24,287 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+Root WebApplicationContext: initialization completed in 1795 ms
+
+
+[INFO ] 2019-01-23 12:54:24,318 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:484)
+FrameworkServlet 'taotao-manager': initialization started
+
+
+[INFO ] 2019-01-23 12:54:24,321 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Wed Jan 23 12:54:24 CST 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-23 12:54:24,323 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+
+
+[INFO ] 2019-01-23 12:54:24,462 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-23 12:54:24,679 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/content/category/create],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.utils.TaotaoResult com.taotao.controller.ContentCategoryController.createContentCategory(java.lang.Long,java.lang.String)
+
+
+[INFO ] 2019-01-23 12:54:24,680 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/content/category/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.List<com.taotao.common.pojo.EasyUITreeNode> com.taotao.controller.ContentCategoryController.getContentCategoryList(java.lang.Long)
+
+
+[INFO ] 2019-01-23 12:54:24,680 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/content/category/update],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.utils.TaotaoResult com.taotao.controller.ContentCategoryController.updateContentCategory(long,java.lang.String)
+
+
+[INFO ] 2019-01-23 12:54:24,681 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/content/category/delete],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.utils.TaotaoResult com.taotao.controller.ContentCategoryController.deleteContentCategory(java.lang.Long)
+
+
+[WARN ] 2019-01-23 12:54:24,684 method:org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:487)
+Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping found. Cannot map 'contentController' bean method 
+public com.taotao.common.pojo.EUDataGridResult com.taotao.controller.ContentController.getContentList(java.lang.Long,int,int)
+to {[/content/category/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}: There is already 'contentCategoryController' bean method
+public java.util.List<com.taotao.common.pojo.EasyUITreeNode> com.taotao.controller.ContentCategoryController.getContentCategoryList(java.lang.Long) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1566)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:663)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:629)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:677)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:548)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5176)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5460)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping found. Cannot map 'contentController' bean method 
+public com.taotao.common.pojo.EUDataGridResult com.taotao.controller.ContentController.getContentList(java.lang.Long,int,int)
+to {[/content/category/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}: There is already 'contentCategoryController' bean method
+public java.util.List<com.taotao.common.pojo.EasyUITreeNode> com.taotao.controller.ContentCategoryController.getContentCategoryList(java.lang.Long) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:215)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:187)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:147)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:126)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:126)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1625)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1562)
+	... 28 more
+
+
+[ERROR] 2019-01-23 12:54:24,691 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:497)
+Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping found. Cannot map 'contentController' bean method 
+public com.taotao.common.pojo.EUDataGridResult com.taotao.controller.ContentController.getContentList(java.lang.Long,int,int)
+to {[/content/category/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}: There is already 'contentCategoryController' bean method
+public java.util.List<com.taotao.common.pojo.EasyUITreeNode> com.taotao.controller.ContentCategoryController.getContentCategoryList(java.lang.Long) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1566)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:663)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:629)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:677)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:548)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5176)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5460)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping found. Cannot map 'contentController' bean method 
+public com.taotao.common.pojo.EUDataGridResult com.taotao.controller.ContentController.getContentList(java.lang.Long,int,int)
+to {[/content/category/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}: There is already 'contentCategoryController' bean method
+public java.util.List<com.taotao.common.pojo.EasyUITreeNode> com.taotao.controller.ContentCategoryController.getContentCategoryList(java.lang.Long) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:215)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:187)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:147)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:126)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:126)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1625)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1562)
+	... 28 more
+
+
+[INFO ] 2019-01-23 12:55:01,675 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:285)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2019-01-23 12:55:01,771 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing Root WebApplicationContext: startup date [Wed Jan 23 12:55:01 CST 2019]; root of context hierarchy
+
+
+[INFO ] 2019-01-23 12:55:01,820 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [H:\taotao\taotao\taotao-maneger\taotao-manager-web\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2019-01-23 12:55:02,164 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [H:\taotao\taotao\taotao-maneger\taotao-manager-web\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2019-01-23 12:55:02,420 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [H:\taotao\taotao\taotao-maneger\taotao-manager-web\target\classes\resource\db.properties]
+
+
+[INFO ] 2019-01-23 12:55:02,421 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [H:\taotao\taotao\taotao-maneger\taotao-manager-web\target\classes\resource\resource.properties]
+
+
+[INFO ] 2019-01-23 12:55:02,432 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-23 12:55:03,383 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+Root WebApplicationContext: initialization completed in 1706 ms
+
+
+[INFO ] 2019-01-23 12:55:03,412 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:484)
+FrameworkServlet 'taotao-manager': initialization started
+
+
+[INFO ] 2019-01-23 12:55:03,416 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Wed Jan 23 12:55:03 CST 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-23 12:55:03,416 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+
+
+[INFO ] 2019-01-23 12:55:03,557 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-23 12:55:03,782 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/content/category/update],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.utils.TaotaoResult com.taotao.controller.ContentCategoryController.updateContentCategory(long,java.lang.String)
+
+
+[INFO ] 2019-01-23 12:55:03,782 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/content/category/delete],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.utils.TaotaoResult com.taotao.controller.ContentCategoryController.deleteContentCategory(java.lang.Long)
+
+
+[INFO ] 2019-01-23 12:55:03,783 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/content/category/create],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.utils.TaotaoResult com.taotao.controller.ContentCategoryController.createContentCategory(java.lang.Long,java.lang.String)
+
+
+[INFO ] 2019-01-23 12:55:03,783 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/content/category/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.List<com.taotao.common.pojo.EasyUITreeNode> com.taotao.controller.ContentCategoryController.getContentCategoryList(java.lang.Long)
+
+
+[INFO ] 2019-01-23 12:55:03,785 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/category/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.common.pojo.EUDataGridResult com.taotao.controller.ContentController.getContentList(java.lang.Long,int,int)
+
+
+[INFO ] 2019-01-23 12:55:03,786 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/item/cat/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.List com.taotao.controller.ItemCatController.categoryList(java.lang.Long)
+
+
+[INFO ] 2019-01-23 12:55:03,788 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/item/{itemId}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.pojo.TbItem com.taotao.controller.ItemController.getItemById(java.lang.Long)
+
+
+[INFO ] 2019-01-23 12:55:03,788 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/item/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.common.pojo.EUDataGridResult com.taotao.controller.ItemController.getItemList(java.lang.Integer,java.lang.Integer)
+
+
+[INFO ] 2019-01-23 12:55:03,788 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/item/save],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private com.taotao.utils.TaotaoResult com.taotao.controller.ItemController.createItem(com.taotao.pojo.TbItem,java.lang.String,java.lang.String) throws java.lang.Exception
+
+
+[INFO ] 2019-01-23 12:55:03,789 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/item/param/query/itemcatid/{itemCatId}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.utils.TaotaoResult com.taotao.controller.ItemParamController.getItemParamByCid(java.lang.Long)
+
+
+[INFO ] 2019-01-23 12:55:03,789 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/item/param/save/{cid}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.utils.TaotaoResult com.taotao.controller.ItemParamController.insertItemParam(java.lang.Long,java.lang.String)
+
+
+[INFO ] 2019-01-23 12:55:03,790 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/showitem/{itemId}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.taotao.controller.ItemParamItemController.showItemParam(java.lang.Long,org.springframework.ui.Model)
+
+
+[INFO ] 2019-01-23 12:55:03,790 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.taotao.controller.PageController.showIndex()
+
+
+[INFO ] 2019-01-23 12:55:03,791 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/{page}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.taotao.controller.PageController.showPage(java.lang.String)
+
+
+[INFO ] 2019-01-23 12:55:03,791 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/pic/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.taotao.controller.PictureController.pictureUpload(org.springframework.web.multipart.MultipartFile)
+
+
+[INFO ] 2019-01-23 12:55:04,149 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Wed Jan 23 12:55:03 CST 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-23 12:55:04,195 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Wed Jan 23 12:55:03 CST 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-23 12:55:04,272 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:314)
+Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+
+
+[INFO ] 2019-01-23 12:55:04,274 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:314)
+Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+
+
+[INFO ] 2019-01-23 12:55:04,313 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:503)
+FrameworkServlet 'taotao-manager': initialization completed in 901 ms
+
+
+[INFO ] 2019-01-23 12:55:13,855 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:655)
+{dataSource-1} inited
+
+
+[WARN ] 2019-01-23 12:55:13,879 method:org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1120)
+No mapping found for HTTP request with URI [/content/query/list] in DispatcherServlet with name 'taotao-manager'
+
+
+[WARN ] 2019-01-23 12:55:16,529 method:org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1120)
+No mapping found for HTTP request with URI [/content/query/list] in DispatcherServlet with name 'taotao-manager'
+
+
+[WARN ] 2019-01-23 12:55:17,025 method:org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1120)
+No mapping found for HTTP request with URI [/content/query/list] in DispatcherServlet with name 'taotao-manager'
+
+
+[WARN ] 2019-01-23 12:55:17,393 method:org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1120)
+No mapping found for HTTP request with URI [/content/query/list] in DispatcherServlet with name 'taotao-manager'
+
+
+[WARN ] 2019-01-23 12:55:18,185 method:org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1120)
+No mapping found for HTTP request with URI [/content/query/list] in DispatcherServlet with name 'taotao-manager'
+
+
+[INFO ] 2019-01-23 12:56:55,646 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:285)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2019-01-23 12:56:55,736 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing Root WebApplicationContext: startup date [Wed Jan 23 12:56:55 CST 2019]; root of context hierarchy
+
+
+[INFO ] 2019-01-23 12:56:55,810 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [H:\taotao\taotao\taotao-maneger\taotao-manager-web\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2019-01-23 12:56:56,221 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [H:\taotao\taotao\taotao-maneger\taotao-manager-web\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2019-01-23 12:56:56,469 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [H:\taotao\taotao\taotao-maneger\taotao-manager-web\target\classes\resource\db.properties]
+
+
+[INFO ] 2019-01-23 12:56:56,469 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [H:\taotao\taotao\taotao-maneger\taotao-manager-web\target\classes\resource\resource.properties]
+
+
+[INFO ] 2019-01-23 12:56:56,479 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-23 12:56:57,387 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+Root WebApplicationContext: initialization completed in 1739 ms
+
+
+[INFO ] 2019-01-23 12:56:57,416 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:484)
+FrameworkServlet 'taotao-manager': initialization started
+
+
+[INFO ] 2019-01-23 12:56:57,419 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Wed Jan 23 12:56:57 CST 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-23 12:56:57,420 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+
+
+[INFO ] 2019-01-23 12:56:57,556 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-23 12:56:57,789 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/content/category/update],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.utils.TaotaoResult com.taotao.controller.ContentCategoryController.updateContentCategory(long,java.lang.String)
+
+
+[INFO ] 2019-01-23 12:56:57,790 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/content/category/delete],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.utils.TaotaoResult com.taotao.controller.ContentCategoryController.deleteContentCategory(java.lang.Long)
+
+
+[INFO ] 2019-01-23 12:56:57,790 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/content/category/create],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.utils.TaotaoResult com.taotao.controller.ContentCategoryController.createContentCategory(java.lang.Long,java.lang.String)
+
+
+[INFO ] 2019-01-23 12:56:57,790 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/content/category/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.List<com.taotao.common.pojo.EasyUITreeNode> com.taotao.controller.ContentCategoryController.getContentCategoryList(java.lang.Long)
+
+
+[INFO ] 2019-01-23 12:56:57,792 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/content/query/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.common.pojo.EUDataGridResult com.taotao.controller.ContentController.getContentList(java.lang.Long,int,int)
+
+
+[INFO ] 2019-01-23 12:56:57,792 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/item/cat/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.List com.taotao.controller.ItemCatController.categoryList(java.lang.Long)
+
+
+[INFO ] 2019-01-23 12:56:57,794 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/item/save],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private com.taotao.utils.TaotaoResult com.taotao.controller.ItemController.createItem(com.taotao.pojo.TbItem,java.lang.String,java.lang.String) throws java.lang.Exception
+
+
+[INFO ] 2019-01-23 12:56:57,794 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/item/{itemId}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.pojo.TbItem com.taotao.controller.ItemController.getItemById(java.lang.Long)
+
+
+[INFO ] 2019-01-23 12:56:57,794 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/item/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.common.pojo.EUDataGridResult com.taotao.controller.ItemController.getItemList(java.lang.Integer,java.lang.Integer)
+
+
+[INFO ] 2019-01-23 12:56:57,795 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/item/param/query/itemcatid/{itemCatId}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.utils.TaotaoResult com.taotao.controller.ItemParamController.getItemParamByCid(java.lang.Long)
+
+
+[INFO ] 2019-01-23 12:56:57,795 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/item/param/save/{cid}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.utils.TaotaoResult com.taotao.controller.ItemParamController.insertItemParam(java.lang.Long,java.lang.String)
+
+
+[INFO ] 2019-01-23 12:56:57,796 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/showitem/{itemId}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.taotao.controller.ItemParamItemController.showItemParam(java.lang.Long,org.springframework.ui.Model)
+
+
+[INFO ] 2019-01-23 12:56:57,797 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.taotao.controller.PageController.showIndex()
+
+
+[INFO ] 2019-01-23 12:56:57,797 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/{page}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.taotao.controller.PageController.showPage(java.lang.String)
+
+
+[INFO ] 2019-01-23 12:56:57,797 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/pic/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.taotao.controller.PictureController.pictureUpload(org.springframework.web.multipart.MultipartFile)
+
+
+[INFO ] 2019-01-23 12:56:58,143 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Wed Jan 23 12:56:57 CST 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-23 12:56:58,186 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Wed Jan 23 12:56:57 CST 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-23 12:56:58,257 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:314)
+Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+
+
+[INFO ] 2019-01-23 12:56:58,259 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:314)
+Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+
+
+[INFO ] 2019-01-23 12:56:58,295 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:503)
+FrameworkServlet 'taotao-manager': initialization completed in 878 ms
+
+
+[INFO ] 2019-01-23 12:57:07,246 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:655)
+{dataSource-1} inited
+
+
+[INFO ] 2019-01-23 13:02:19,645 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:285)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2019-01-23 13:02:19,737 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing Root WebApplicationContext: startup date [Wed Jan 23 13:02:19 CST 2019]; root of context hierarchy
+
+
+[INFO ] 2019-01-23 13:02:19,791 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [H:\taotao\taotao\taotao-maneger\taotao-manager-web\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2019-01-23 13:02:20,185 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [H:\taotao\taotao\taotao-maneger\taotao-manager-web\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2019-01-23 13:02:20,482 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [H:\taotao\taotao\taotao-maneger\taotao-manager-web\target\classes\resource\db.properties]
+
+
+[INFO ] 2019-01-23 13:02:20,482 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [H:\taotao\taotao\taotao-maneger\taotao-manager-web\target\classes\resource\resource.properties]
+
+
+[INFO ] 2019-01-23 13:02:20,497 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-23 13:02:21,467 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+Root WebApplicationContext: initialization completed in 1820 ms
+
+
+[INFO ] 2019-01-23 13:02:21,497 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:484)
+FrameworkServlet 'taotao-manager': initialization started
+
+
+[INFO ] 2019-01-23 13:02:21,500 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Wed Jan 23 13:02:21 CST 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-23 13:02:21,500 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+
+
+[INFO ] 2019-01-23 13:02:21,684 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-23 13:02:21,846 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/content/category/update],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.utils.TaotaoResult com.taotao.controller.ContentCategoryController.updateContentCategory(long,java.lang.String)
+
+
+[INFO ] 2019-01-23 13:02:21,847 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/content/category/delete],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.utils.TaotaoResult com.taotao.controller.ContentCategoryController.deleteContentCategory(java.lang.Long)
+
+
+[INFO ] 2019-01-23 13:02:21,847 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/content/category/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.List<com.taotao.common.pojo.EasyUITreeNode> com.taotao.controller.ContentCategoryController.getContentCategoryList(java.lang.Long)
+
+
+[INFO ] 2019-01-23 13:02:21,847 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/content/category/create],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.utils.TaotaoResult com.taotao.controller.ContentCategoryController.createContentCategory(java.lang.Long,java.lang.String)
+
+
+[INFO ] 2019-01-23 13:02:21,849 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/content/query/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.common.pojo.EUDataGridResult com.taotao.controller.ContentController.getContentList(java.lang.Long,int,int)
+
+
+[INFO ] 2019-01-23 13:02:21,850 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/item/cat/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.List com.taotao.controller.ItemCatController.categoryList(java.lang.Long)
+
+
+[INFO ] 2019-01-23 13:02:21,850 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/item/save],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private com.taotao.utils.TaotaoResult com.taotao.controller.ItemController.createItem(com.taotao.pojo.TbItem,java.lang.String,java.lang.String) throws java.lang.Exception
+
+
+[INFO ] 2019-01-23 13:02:21,851 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/item/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.common.pojo.EUDataGridResult com.taotao.controller.ItemController.getItemList(java.lang.Integer,java.lang.Integer)
+
+
+[INFO ] 2019-01-23 13:02:21,852 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/item/{itemId}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.pojo.TbItem com.taotao.controller.ItemController.getItemById(java.lang.Long)
+
+
+[INFO ] 2019-01-23 13:02:21,853 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/item/param/query/itemcatid/{itemCatId}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.utils.TaotaoResult com.taotao.controller.ItemParamController.getItemParamByCid(java.lang.Long)
+
+
+[INFO ] 2019-01-23 13:02:21,853 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/item/param/save/{cid}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.utils.TaotaoResult com.taotao.controller.ItemParamController.insertItemParam(java.lang.Long,java.lang.String)
+
+
+[INFO ] 2019-01-23 13:02:21,853 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/showitem/{itemId}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.taotao.controller.ItemParamItemController.showItemParam(java.lang.Long,org.springframework.ui.Model)
+
+
+[INFO ] 2019-01-23 13:02:21,854 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/{page}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.taotao.controller.PageController.showPage(java.lang.String)
+
+
+[INFO ] 2019-01-23 13:02:21,854 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.taotao.controller.PageController.showIndex()
+
+
+[INFO ] 2019-01-23 13:02:21,855 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/pic/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.taotao.controller.PictureController.pictureUpload(org.springframework.web.multipart.MultipartFile)
+
+
+[INFO ] 2019-01-23 13:02:22,166 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Wed Jan 23 13:02:21 CST 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-23 13:02:22,208 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Wed Jan 23 13:02:21 CST 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-23 13:02:22,280 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:314)
+Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+
+
+[INFO ] 2019-01-23 13:02:22,282 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:314)
+Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+
+
+[INFO ] 2019-01-23 13:02:22,323 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:503)
+FrameworkServlet 'taotao-manager': initialization completed in 826 ms
+
+
+[INFO ] 2019-01-23 13:02:29,728 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:655)
+{dataSource-1} inited
+
+
+[INFO ] 2019-01-23 15:37:22,645 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:285)
+Root WebApplicationContext: initialization started
+
+
+[INFO ] 2019-01-23 15:37:22,723 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing Root WebApplicationContext: startup date [Wed Jan 23 15:37:22 CST 2019]; root of context hierarchy
+
+
+[INFO ] 2019-01-23 15:37:22,802 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [H:\taotao\taotao\taotao-maneger\taotao-manager-web\target\classes\spring\applicationContext-dao.xml]
+
+
+[INFO ] 2019-01-23 15:37:23,808 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from file [H:\taotao\taotao\taotao-maneger\taotao-manager-web\target\classes\spring\applicationContext-service.xml]
+
+
+[INFO ] 2019-01-23 15:37:24,152 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [H:\taotao\taotao\taotao-maneger\taotao-manager-web\target\classes\resource\db.properties]
+
+
+[INFO ] 2019-01-23 15:37:24,152 method:org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)
+Loading properties file from file [H:\taotao\taotao\taotao-maneger\taotao-manager-web\target\classes\resource\resource.properties]
+
+
+[INFO ] 2019-01-23 15:37:24,165 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-23 15:37:25,492 method:org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+Root WebApplicationContext: initialization completed in 2847 ms
+
+
+[INFO ] 2019-01-23 15:37:25,520 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:484)
+FrameworkServlet 'taotao-manager': initialization started
+
+
+[INFO ] 2019-01-23 15:37:25,522 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:510)
+Refreshing WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Wed Jan 23 15:37:25 CST 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-23 15:37:25,523 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+
+
+[INFO ] 2019-01-23 15:37:25,747 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-01-23 15:37:26,147 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/content/category/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.List<com.taotao.common.pojo.EasyUITreeNode> com.taotao.controller.ContentCategoryController.getContentCategoryList(java.lang.Long)
+
+
+[INFO ] 2019-01-23 15:37:26,148 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/content/category/create],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.utils.TaotaoResult com.taotao.controller.ContentCategoryController.createContentCategory(java.lang.Long,java.lang.String)
+
+
+[INFO ] 2019-01-23 15:37:26,149 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/content/category/delete],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.utils.TaotaoResult com.taotao.controller.ContentCategoryController.deleteContentCategory(java.lang.Long)
+
+
+[INFO ] 2019-01-23 15:37:26,149 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/content/category/update],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.utils.TaotaoResult com.taotao.controller.ContentCategoryController.updateContentCategory(long,java.lang.String)
+
+
+[INFO ] 2019-01-23 15:37:26,153 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/content/query/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.common.pojo.EUDataGridResult com.taotao.controller.ContentController.getContentList(java.lang.Long,int,int)
+
+
+[INFO ] 2019-01-23 15:37:26,165 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/item/cat/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.List com.taotao.controller.ItemCatController.categoryList(java.lang.Long)
+
+
+[INFO ] 2019-01-23 15:37:26,167 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/item/{itemId}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.pojo.TbItem com.taotao.controller.ItemController.getItemById(java.lang.Long)
+
+
+[INFO ] 2019-01-23 15:37:26,168 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/item/save],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto private com.taotao.utils.TaotaoResult com.taotao.controller.ItemController.createItem(com.taotao.pojo.TbItem,java.lang.String,java.lang.String) throws java.lang.Exception
+
+
+[INFO ] 2019-01-23 15:37:26,168 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/item/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.common.pojo.EUDataGridResult com.taotao.controller.ItemController.getItemList(java.lang.Integer,java.lang.Integer)
+
+
+[INFO ] 2019-01-23 15:37:26,169 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/item/param/query/itemcatid/{itemCatId}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.utils.TaotaoResult com.taotao.controller.ItemParamController.getItemParamByCid(java.lang.Long)
+
+
+[INFO ] 2019-01-23 15:37:26,169 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/item/param/save/{cid}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.utils.TaotaoResult com.taotao.controller.ItemParamController.insertItemParam(java.lang.Long,java.lang.String)
+
+
+[INFO ] 2019-01-23 15:37:26,174 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/showitem/{itemId}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.taotao.controller.ItemParamItemController.showItemParam(java.lang.Long,org.springframework.ui.Model)
+
+
+[INFO ] 2019-01-23 15:37:26,175 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/{page}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.taotao.controller.PageController.showPage(java.lang.String)
+
+
+[INFO ] 2019-01-23 15:37:26,176 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.taotao.controller.PageController.showIndex()
+
+
+[INFO ] 2019-01-23 15:37:26,176 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:220)
+Mapped "{[/pic/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.taotao.controller.PictureController.pictureUpload(org.springframework.web.multipart.MultipartFile)
+
+
+[INFO ] 2019-01-23 15:37:26,760 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Wed Jan 23 15:37:25 CST 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-23 15:37:26,867 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:518)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'taotao-manager-servlet': startup date [Wed Jan 23 15:37:25 CST 2019]; parent: Root WebApplicationContext
+
+
+[INFO ] 2019-01-23 15:37:26,977 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:314)
+Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+
+
+[INFO ] 2019-01-23 15:37:26,980 method:org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:314)
+Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+
+
+[INFO ] 2019-01-23 15:37:27,025 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:503)
+FrameworkServlet 'taotao-manager': initialization completed in 1505 ms
+
+
+[INFO ] 2019-01-23 15:37:29,858 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:655)
+{dataSource-1} inited
