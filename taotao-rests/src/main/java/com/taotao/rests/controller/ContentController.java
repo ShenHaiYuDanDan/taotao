@@ -24,12 +24,13 @@ public class ContentController {
 
     @Autowired
     private ContentService contentService;
-    @RequestMapping("/list/{contentCategory}")
-    public TaotaoResult getContentList(@PathVariable long contentCategory){
+    @RequestMapping("/list/{contentCategoryId}")
+    public TaotaoResult getContentList(@PathVariable long contentCategoryId){
         try {
-            List<TbContent> list = contentService.getContentList(contentCategory);
+            List<TbContent> list = contentService.getContentList(contentCategoryId);
             return TaotaoResult.ok(list);
         }catch (Exception e){
+            e.getStackTrace();
 //            错误500 并且返回一个字符串 使用ExceptionUtil工具类 返回e
             return TaotaoResult.build(500, ExceptionUtil.getStackTrace(e));
         }
