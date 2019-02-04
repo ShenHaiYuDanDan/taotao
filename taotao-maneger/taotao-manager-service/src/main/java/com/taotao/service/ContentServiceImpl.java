@@ -61,6 +61,29 @@ public class ContentServiceImpl implements ContentService {
                 ){
             e.printStackTrace();
         }
+
         return TaotaoResult.ok();
     }
+/**
+ * @Author chengpunan
+ * @Description //TODO 删除大广告位广告信息
+ * @Date 12:45 2019/2/4 0004
+ * @Param 
+ * @return 
+ **/
+
+    @Override
+    public TaotaoResult deleteContent(long id) {
+
+       contentMapper.deleteByPrimaryKey(id);
+        return TaotaoResult.ok();
+    }
+    private List getDeleteContent(long id){
+        TbContentExample example=new TbContentExample();
+        TbContentExample.Criteria criteria = example.createCriteria();
+        criteria.andCategoryIdEqualTo(id);
+        List<TbContent> list = contentMapper.selectByExample(example);
+        return list;
+    }
+
 }
