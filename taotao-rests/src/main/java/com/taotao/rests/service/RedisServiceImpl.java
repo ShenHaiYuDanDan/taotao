@@ -19,13 +19,13 @@ public class RedisServiceImpl implements RedisService {
 
     @Autowired
     private JedisClient jedisClient;
-    @Value("${INDEX_CONTENT_REDIS_KEY}")
-    private String INDEX_CONTENT_REDIS_KEY;
+    @Value("${INDEX_CONTENT_REDIS_KEY1}")
+    private String INDEX_CONTENT_REDIS_KEY1;
     @Override
     public TaotaoResult syncContent(long contentCid) {
         try {
 //            使用jedisClient调用删除方法hdel，命名就是删除的指令。只需要执行即可
-            jedisClient.hdel(INDEX_CONTENT_REDIS_KEY, contentCid + "");
+            jedisClient.hdel(INDEX_CONTENT_REDIS_KEY1, contentCid + "");
         }catch (Exception e){
 //            删除错误，返回500错误。打印异常信息。
             return TaotaoResult.build(500, ExceptionUtil.getStackTrace(e));
