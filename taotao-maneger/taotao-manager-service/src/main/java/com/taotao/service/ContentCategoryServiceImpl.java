@@ -92,8 +92,9 @@ public class ContentCategoryServiceImpl implements ContentCategoryService {
  */
 
     public TaotaoResult deleteContentCategory(long id) {
+
         TbContentCategory contentCategory = tbContentCategoryMapper.selectByPrimaryKey(id);
-//        判断是否为子节点
+//        判断是否为子节点 是子节点就直接执行删除
         if (contentCategory.getIsParent()) {
 //            递归删除
             List<TbContentCategory> contentCateListByParentId = getContentCateListByParentId(id);
