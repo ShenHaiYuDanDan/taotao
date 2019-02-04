@@ -2,11 +2,16 @@ package com.taotao.rests.service;
 
 import com.alibaba.druid.sql.visitor.functions.If;
 import com.taotao.mapper.TbItemCatMapper;
+import com.taotao.pojo.TbContent;
 import com.taotao.pojo.TbItemCat;
 import com.taotao.pojo.TbItemCatExample;
+import com.taotao.rests.dao.JedisClient;
 import com.taotao.rests.pojo.CatNode;
 import com.taotao.rests.pojo.CatResult;
+import com.taotao.utils.JsonUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -26,6 +31,12 @@ public class ItemCatServiceImpl implements ItemCatService {
     @Autowired
     private TbItemCatMapper  itemCatMapper;
 
+    @Autowired
+    private JedisClient jedisClient;
+
+    @Value("${INDEX_CONTENT_REDIS_KEY1}")
+
+    private String INDEX_CONTENT_REDIS_KEY1;
     public CatResult getItemList() {
         CatResult catResult=new CatResult();
 //        查询分类列表 此处调用下面方法
@@ -43,6 +54,18 @@ public class ItemCatServiceImpl implements ItemCatService {
      */
 
     private List<?> getCatList(long parenId) {
+//        取缓存
+        try{
+
+            String result = jedisClient.hget(INDEX_CONTENT_REDIS_KEY1, parenId + "");
+            if (!StringUtils.isBlank(result)){
+                List<TbItemCat> jsonToList = JsonUtils.jsonToList(result, TbItemCat.class);
+                return  jsonToList;
+            }
+
+        }catch (Exception e){
+            e.printStackTrace();
+        }
 //        创建查询条件
         TbItemCatExample example = new TbItemCatExample();
 //        查询方法
@@ -55,6 +78,7 @@ public class ItemCatServiceImpl implements ItemCatService {
 //      向list中添加节点
         int count=0;
         for (TbItemCat tbItemCat : list) {
+
 //            第一层 判断是是否为父节点
             if(tbItemCat.getIsParent()) {
 
@@ -79,7 +103,14 @@ public class ItemCatServiceImpl implements ItemCatService {
             }else {
                 catNodeList.add("/products/"+tbItemCat.getId()+".html|"+tbItemCat.getName());
             }
+        }
+//        向redis添加缓存
+        try{
+            String toJson = JsonUtils.objectToJson(catNodeList);
+            jedisClient.hset(INDEX_CONTENT_REDIS_KEY1,parenId+"",toJson);
 
+        }catch (Exception e){
+            e.printStackTrace();
         }
         return catNodeList;
     }
