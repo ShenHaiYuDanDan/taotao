@@ -9,4 +9,6 @@ import java.util.List;
 public interface ContentService {
     EUDataGridResult getContentList(long category, int rows, int page);
     TaotaoResult insetContent(TbContent tbContent);
+    TaotaoResult deleteContent(long id);
+
 }
