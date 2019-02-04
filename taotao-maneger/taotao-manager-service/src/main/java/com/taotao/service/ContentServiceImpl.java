@@ -74,16 +74,8 @@ public class ContentServiceImpl implements ContentService {
 
     @Override
     public TaotaoResult deleteContent(long id) {
-
        contentMapper.deleteByPrimaryKey(id);
         return TaotaoResult.ok();
-    }
-    private List getDeleteContent(long id){
-        TbContentExample example=new TbContentExample();
-        TbContentExample.Criteria criteria = example.createCriteria();
-        criteria.andCategoryIdEqualTo(id);
-        List<TbContent> list = contentMapper.selectByExample(example);
-        return list;
     }
 
 }
