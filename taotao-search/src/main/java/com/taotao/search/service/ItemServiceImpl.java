@@ -21,6 +21,13 @@ public class ItemServiceImpl implements ItemService {
     private SolrServer solrServer;
     @Override
     public TaotaoResult importAllItems() throws Exception {
+/**
+ * @Author chengpunan
+ * @Description //TODO 商品信息实现类
+ * @Date 13:48 2019/2/10 0010
+ * @Param []
+ * @return com.taotao.utils.TaotaoResult
+ **/
 
         try{
             //        查询商品列表
