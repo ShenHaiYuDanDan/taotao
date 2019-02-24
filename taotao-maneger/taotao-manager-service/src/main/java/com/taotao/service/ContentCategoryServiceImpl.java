@@ -58,6 +58,16 @@ public class ContentCategoryServiceImpl implements ContentCategoryService {
 
     @Override
     public TaotaoResult insertContentCategory(long parentId, String name) {
+        /**
+         *
+         * 功能描述: 添加节点，更改节点状态
+         *
+         * @param: [parentId, name]
+         * @return: com.taotao.utils.TaotaoResult
+         * @auther: Superman
+         * @date: 2019/2/24 13:44
+         */
+
 //        创建一个pojo
         TbContentCategory category = new TbContentCategory();
 

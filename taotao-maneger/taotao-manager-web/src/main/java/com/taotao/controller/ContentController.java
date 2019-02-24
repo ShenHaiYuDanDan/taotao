@@ -43,4 +43,22 @@ public class ContentController {
 
     }
 
+    @RequestMapping("/delete")
+    @ResponseBody
+    public TaotaoResult deleteList(Long ids){
+        /**
+         *
+         * 功能描述: 广告位功能删除
+         *
+         * @param: [ids]
+         * @return: com.taotao.utils.TaotaoResult
+         * @auther: Superman
+         * @date: 2019/2/24 13:44
+         */
+
+        TaotaoResult result = contentService.deleteContent(ids);
+        return result;
+    }
+
+
 }
